@@ -1,0 +1,11 @@
+#!/bin/bash
+STUDENT_NAME="Diksha"
+SOFTWARE="Git"
+echo "===== Open Source Audit ====="
+echo "Student: $STUDENT_NAME"
+echo "Software: $SOFTWARE"
+echo "Kernel: $(uname -r)"
+echo "User: $(whoami)"
+echo "Uptime: $(uptime -p)"
+echo "Date: $(date)"
+echo "License: GPL v2"
