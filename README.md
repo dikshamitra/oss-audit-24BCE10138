@@ -1,8 +1,11 @@
 # Open Source Audit Project
 
 **Student Name:** DIKSHA MITRA
+
 **Registration Number:** *24BCE10138*
+
 **Course:** Open Source Software
+
 **Repository Name:** oss-audit-24BCE10138
 
 ---
@@ -26,6 +29,8 @@ The project emphasizes both theoretical understanding and hands-on implementatio
 **Category:** Version Control System
 
 Git was chosen because it is one of the most widely used open-source tools in software development and demonstrates the power of distributed collaboration and community-driven development.
+Git is widely used in industry and is essential for modern software development workflows.
+
 
 ---
 
@@ -164,7 +169,7 @@ This script reads a log file line by line and counts how many times a given keyw
 Usage:
 
 ```
-./script4.sh sample.log error
+./script4.sh /var/log/syslog error
 ```
 
 ---
@@ -185,6 +190,7 @@ This script interactively asks the user three questions about open-source philos
 ## Screenshots
 
 Screenshots showing the successful execution of all scripts are stored in the **screenshots/** directory. These demonstrate that each script runs correctly in a Bash environment.
+All screenshots were captured from a real Linux environment (Ubuntu/WSL) after successfully executing each script.
 
 ---
 
@@ -210,4 +216,5 @@ This repository is created for academic purposes as part of coursework. All scri
 ## Author
 
 **DIKSHA MITRA**
+
 B.Tech Student — Open Source Software Course
