@@ -1,9 +1,9 @@
 # Open Source Audit Project
 
 **Student Name:** DIKSHA MITRA
-**Registration Number:** *[24BCE10138]*
+**Registration Number:** *24BCE10138*
 **Course:** Open Source Software
-**Repository Name:** oss-audit-[24BCE10138]
+**Repository Name:** oss-audit-24BCE10138
 
 ---
 
@@ -14,6 +14,8 @@ This project is part of the Open Source Software course and aims to develop prac
 * A structured report analyzing a real open-source software project
 * Five Bash shell scripts demonstrating command-line automation and system interaction
 * Execution screenshots and documentation
+
+The project emphasizes both theoretical understanding and hands-on implementation using a real Linux environment.
 
 ---
 
@@ -36,11 +38,11 @@ OSS-AUDIT/
 |   └── OSS_Audit_Report.pdf
 │
 ├── screenshots/
-│   ├── Disk and Permission Auditor.png
-│   ├── FOSS Package Inspector.png
-│   ├── Log File Analyzer.png
-|   ├── Manifesto Generator.png
-|   └── System Identity Report.png
+│   ├── script1_output_system_identity.png
+│   ├── script2_output_package_inspector.png
+│   ├── script3_output_disk_auditor.png
+|   ├── script4_output_log_analyzer.png
+|   └── script5_output_manifesto.png
 |
 ├── scripts/
 │   ├── script1.sh
@@ -77,8 +79,8 @@ https://git-scm.com/downloads
 ### Step 1: Clone the Repository
 
 ```
-git clone https://github.com/<dikshamitra>/oss-audit-[24BCE10138].git
-cd oss-audit-[24BCE10138]/scripts
+git clone https://github.com/dikshamitra/oss-audit-24BCE10138.git
+cd oss-audit-24BCE10138/scripts
 ```
 
 ### Step 2: Make Scripts Executable
@@ -121,7 +123,8 @@ This script displays key information about the current system, including:
 
 ### Script 2 — FOSS Package Inspector
 
-This script checks whether Git is installed on the system and prints version and license information. It also uses a case statement to describe the purpose of the package.
+This script checks whether Git is installed on the system, displays its version and description, and uses a case statement to explain its purpose.
+It also uses a case statement to describe the purpose of the package.
 
 **Concepts Used:**
 
@@ -137,6 +140,7 @@ This script loops through important system directories and prints:
 
 * Directory permissions
 * Ownership information
+* Disk usage of each directory
 
 **Concepts Used:**
 
@@ -193,6 +197,7 @@ Through this project, the following skills were developed:
 * Writing and executing Bash scripts
 * Using loops, conditionals, and command substitution in shell scripting
 * Working with Git and GitHub for version control and project submission
+* Executing scripts in a real Linux environment (WSL/Ubuntu)
 
 ---
 

@@ -1,11 +1,29 @@
 #!/bin/bash
+# Script 3: Disk and Permission Auditor
 
-echo "Checking Windows equivalent directories"
+DIRS=("/etc" "/var/log" "/home" "/usr/bin" "/tmp")
+
+echo "Directory Audit Report"
+echo "----------------------"
+
+for DIR in "${DIRS[@]}"; do
+    if [ -d "$DIR" ]; then
+        PERMS=$(ls -ld $DIR | awk '{print $1, $3, $4}')
+        SIZE=$(du -sh $DIR 2>/dev/null | cut -f1)
+        echo "$DIR => Permissions: $PERMS | Size: $SIZE"
+    else
+        echo "$DIR does not exist on this system"
+    fi
+done
+
+# Check Git config directory
+CONFIG_DIR="/etc/git"
 
 echo ""
-echo "1. Checking Users folder"
-ls -ld /c/Users
+echo "Checking Git config directory..."
 
-echo ""
-echo "2. Checking Windows Logs folder"
-ls -ld /c/Windows/Logs
+if [ -d "$CONFIG_DIR" ]; then
+    ls -ld $CONFIG_DIR
+else
+    echo "Git config directory not found."
+fi
