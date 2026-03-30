@@ -29,6 +29,7 @@ The project emphasizes both theoretical understanding and hands-on implementatio
 **Category:** Version Control System
 
 Git was chosen because it is one of the most widely used open-source tools in software development and demonstrates the power of distributed collaboration and community-driven development.
+
 Git is widely used in industry and is essential for modern software development workflows.
 
 
@@ -190,6 +191,7 @@ This script interactively asks the user three questions about open-source philos
 ## Screenshots
 
 Screenshots showing the successful execution of all scripts are stored in the **screenshots/** directory. These demonstrate that each script runs correctly in a Bash environment.
+
 All screenshots were captured from a real Linux environment (Ubuntu/WSL) after successfully executing each script.
 
 ---
